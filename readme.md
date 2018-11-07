@@ -38,7 +38,7 @@ etc.
 
 Now call the method on your dependency hash:
 
-array = dependencies.coffman_graham
+`array = dependencies.coffman_graham`
 
 The method returns a sorted array of your tasks. 
 
