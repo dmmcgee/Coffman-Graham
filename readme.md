@@ -6,7 +6,7 @@ This implementation models tasks as nodes in a directed acyclic graph (DAG). It 
 
 The basic idea of the algorithm is that when scheduling tasks that have prior dependencies, schedule them in such a way that maximizes the time between executing a particular task and executing that task's direct predecessor. This maximizes the number of tasks that can be run in parellel, and reduces the overall makespan (execution time for all tasks). The algorithm assumes each task takes unit time. 
 
-This imeplementation of the algorithm also performs a transitive reduction on the DAG first to remove any redundant dependencies.
+This implementation also performs a transitive reduction on the DAG first to remove any redundant dependencies.
 
 ### Requirements
 * Tested on Ruby 2.3
